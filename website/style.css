@@ -1,0 +1,166 @@
+/* SiteWide Styles */
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #ebebeb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+  font-family: 'Noto Sans', sans-serif;
+  color: #1A1A1D;
+}
+
+.container {
+  max-width: 1080px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 75px;
+}
+
+.container-accent {
+  max-width: 1080px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  width: 100%;
+  background-color: #1A1A1D;
+  position: fixed;
+  z-index: 10;
+  text-align: center;
+  padding: 25px;
+}
+
+.title-name {
+  float: left;
+  width: 40%;
+}
+
+.title-name h2 {
+  margin: 10px auto;
+  color: white;
+  padding: 15px 30px;
+  letter-spacing: 2px;
+}
+
+nav {
+  padding: 15px 30px;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  color: #C3073F;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: #C3073F;
+}
+
+.active {
+  color: #C3073F;
+}
+
+/* Main Styles */
+main {
+  height: auto;
+  position: relative;
+  top: 100px;
+}
+
+.col {
+  display: inline-block;
+  text-align: center;
+  width: 520px;
+  margin: 0 auto;
+}
+
+main h3 {
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: underline;
+  color: #6F2232;
+}
+
+main a {
+  color: #950740;
+  text-decoration: none;
+}
+
+main a:visited {
+  color: #6F2232;
+}
+
+main a:hover {
+  color: #4E4E50;
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #1A1A1D;
+  margin-top: 75px;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
+}
+
+footer a {
+  color: #C3073F;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #4E4E50;
+  text-decoration: underline;
+}
+
+/* About Page Styles */
+#me {
+  width: 50%;
+  height: 50%;
+  border-radius: 100px;
+  border: 1px solid #4E4E50;
+}
+
+#left {
+  float: left;
+}
+#right {
+  float: right;
+  text-align: left;
+}
