@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@font-face {
+	font-family: "minecraft";
+	src: url(plugins/Minecraft.ttf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: minecraft;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+
+.page1 {
+	background-image: url("img/bk1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main1 h1 {
+	font-size: 50px;
+	margin-top: 875px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+	width: 50%;
+	height: auto;
+	position: fixed;
+	margin-top: 75px;
+	z-index: 10;
+}
+
+.page2 {
+	background-image: url("img/bk2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main2 p {
+	font-size: 28px;
+	margin-top: 300px;
+	text-align: left;
+	background:rgba(255,255,255,0.6);
+	padding-left: 4px;
+	padding-top: 2px; 
+}
+
+.page3 {
+	background-image: url("img/bk3.png");
+}
+
+.main3 iframe {
+	margin-top: 300px;
+}
+
+.page4 {
+	background-image: url("img/bk4.png");
+}
+
+.main4 h1 {
+	font-size: 45px;
+	margin-top: 300px;
+	color: white;
+}
+
+.main4 a {
+	color: white;
+	text-decoration: none;
+}
+
+.main4 a:hover {
+	color: #b300b3;
+	text-decoration: none;
+}
+
+.main4 h3 {
+	color: white;
+	font-size: 35px;
+	padding-bottom: 15px;
+}
+
+.main4 p {
+	font-size: 25px;
+	padding-bottom: 5px;
+}
+
+.main4 .row {
+	margin-top: 70px;
+	border-bottom: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
