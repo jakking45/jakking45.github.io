@@ -107,6 +107,7 @@ main h3 {
   font-size: 22px;
   text-decoration: underline;
   color: #6F2232;
+  margin: 0;
 }
 
 main a {
@@ -149,6 +150,100 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* Home Styles */
+main h1 {
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  padding-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+}
+
+#impact {
+  color: #C3073F;
+}
+
+.jumbotron {
+  height: 1080px;
+  width: auto;
+  background-image: url('../assets/bkgimg.jpg');
+}
+
+.jumbotron button {
+  margin-top: 60px;
+  background-color: #C3073F;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 36px;
+  text-decoration: none;
+  width: 20%;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.jumbotron button:hover {
+  background-color: #6F2232;
+}
+
+/* My Work Styles */
+.worksection {
+  height: 250px;
+  width: 100%;
+  margin: 75px 0;
+}
+
+#firstworksection {
+  margin-top: 25px;
+}
+
+main h4 {
+  color: #1A1A1D;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+div .scrollableinfo {
+  overflow: auto;
+  height: 175px;
+  border: none;
+  border-bottom: 1px solid #C3073F;
+}
+
+.projectlink {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.worksection img {
+  height: auto;
+  width: 100%;
+}
+
+#longpic {
+  width: auto;
+  height: 250px;
+}
+
+hr {
+  border: 1px solid #C3073F;
+}
+
+a img:hover {
+  border-bottom: 2px solid #4E4E50;
+  opacity: 0.75;
+}
+
+.modelrender {
+  display: inline-block;
+  width: 45%;
+  height: auto;
+}
+
 /* About Page Styles */
 #me {
   width: 50%;
@@ -163,4 +258,66 @@ footer a:hover {
 #right {
   float: right;
   text-align: left;
+}
+
+/* Contact Me Styles */
+form {
+  max-width: 50%;
+  text-align: left;
+  margin: 0 auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+form h3 {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+textarea {
+  color: #4E4E50;
+}
+
+input[type=text] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #C3073F;
+  padding: 16px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #C3073F;
+  padding: 16px;
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+input[type=submit] {
+  background-color: #C3073F;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 36px;
+  text-decoration: none;
+  width: 40%;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6F2232;
+}
+
+.container form section {
+  padding: 12px;
+}
+
+.container form label {
+  color: #6F2232;
 }
