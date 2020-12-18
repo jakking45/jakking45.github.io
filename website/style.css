@@ -1,4 +1,10 @@
 /* SiteWide Styles */
+/*
+* {
+  border: 1px solid blue;
+}
+*/
+
 html, body {
   padding: 0;
   margin: 0;
@@ -165,6 +171,13 @@ main h1 {
 
 #impact {
   color: #C3073F;
+}
+
+#jstext {
+  color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 50%;
 }
 
 .jumbotron {
